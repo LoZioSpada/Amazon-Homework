@@ -1,0 +1,50 @@
+/* !!VEDERE COME METTERE LA PAGINA IN SCALA IN BASE ALLA DIMENSIONE DELLA STESSA !!*/
+html{
+    background-color: #eaeded;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-top{
+    background: linear-gradient(0deg, #222f3e, #222f3e);
+    padding: 1%;
+}
+
+.logo-top img{
+    width: 120px;
+    height: 45px;
+}
+
+.menu{
+    background: linear-gradient(0deg, #354758, #354758);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.menu span a{ /*!! SPAZIO DA UNA PAROLA ALL'ALTRA !!*/
+    color: white;
+    font-size: 15px;
+    margin-left: 1%;
+    text-decoration: none; 
+}
+
+span a:hover{   /*!! DA SISTEMARE !!*/
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+main{
+    margin: 1%;
+}
+
+.gift-cards{
+    background: linear-gradient(0deg, #f56600, #f56600);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.gift-cards p{  /* p forse diventa h5 */
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
