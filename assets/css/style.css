@@ -1,5 +1,6 @@
 /* !!VEDERE COME METTERE LA PAGINA IN SCALA IN BASE ALLA DIMENSIONE DELLA STESSA !!*/
 html{
+    display: flexbox;
     background-color: #eaeded;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -41,10 +42,27 @@ main{
     background: linear-gradient(0deg, #f56600, #f56600);
     padding-top: 1px;
     padding-bottom: 1px;
+    text-align: center;
 }
 
-.gift-cards p{  /* p forse diventa h5 */
+.gift-cards h5 a{  
+    text-decoration: none;
     color: white;
-    text-align: center;
     font-size: 15px;
+    margin-bottom: 2%;
+}
+
+#gift-guides h3{
+    background-image: url('../img/bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover; /*NON SONO RIUSCITO AD ADATTARE L'IMMAGINE ALLA SCHERMATA */
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    height: 128px;
+    padding-top: 2%;
+}
+
+#gift-guides a{
+    text-decoration: none;
 }
