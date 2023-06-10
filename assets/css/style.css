@@ -21,7 +21,7 @@ html{
     padding-bottom: 8px;
 }
 
-.menu span a{ /*!! SPAZIO DA UNA PAROLA ALL'ALTRA !!*/
+.menu span a{
     color: white;
     font-size: 15px;
     margin-left: 1%;
@@ -65,4 +65,29 @@ main{
 
 #gift-guides a{
     text-decoration: none;
+}
+
+.back-top{
+    background: linear-gradient(0deg, #354758, #354758);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.back-top h5{
+    color: white;
+    font-size: 13px;
+    margin-left: 1%;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.logo-bot{
+    background: linear-gradient(0deg, #222f3e, #222f3e);
+    text-align: center;
+    padding: 5%;
+}
+
+.logo-bot img{
+    width: 180px;
+    height: 65px;
 }
