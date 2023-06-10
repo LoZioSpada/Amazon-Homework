@@ -24,7 +24,7 @@ html{
 .menu span a{
     color: white;
     font-size: 15px;
-    margin-left: 1%;
+    padding: 1%;
     text-decoration: none; 
 }
 
@@ -75,10 +75,13 @@ main{
 
 .back-top h5{
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 1%;
-    text-decoration: none; 
     text-align: center;
+}
+
+.back-top a{
+    text-decoration: none;
 }
 
 .logo-bot{
